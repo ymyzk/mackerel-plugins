@@ -15,4 +15,5 @@ if __name__ == '__main__':
         lps.open()
         # Print current pressure
         print("{0}\t{1:.2f}\t{2:.0f}".format(NAME, lps.pressure, time()))
+    finally:
         lps.close()
