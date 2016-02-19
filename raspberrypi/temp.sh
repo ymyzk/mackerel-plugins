@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 SECONDS=`date '+%s'`
 
 NAME='temperature.cpu'
